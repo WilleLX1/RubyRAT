@@ -1,11 +1,11 @@
 # RubyRAT
-A remote access trojan in python that uses discord bot as a C2
+RubyRAT is a remote access trojan developed in Python, designed to utilize a Discord bot as a Command and Control (C2) server. This tool allows you to remotely manage and control systems that have the RubyRAT bot installed.
 
-# Warning:-
-    Use this tool Only for Educational Purpose And I will Not be Responsible For ur cruel act.
-    
-# Note:
-      This project may not be fully stable as it is a work in progress.
+## Disclaimer and Warning
+**Warning:** This tool is intended for educational purposes only. Unauthorized use of RubyRAT for malicious activities is strictly prohibited. The developer will not be held responsible for any misuse of the tool.
+
+## Note
+Please be aware that this project is currently under development, and its stability may vary as it continues to evolve.
 
 
 # Setup Step-By-Step
