@@ -40,15 +40,22 @@ Please be aware that this project is currently under development, and its stabil
 # Features:
 
 ### Basics
-      1) !kill (Disconnects Client from C2)
+      1) !help (Displays a help menu of all commands)
+      2) !kill (Disconnects Client from C2)
 
 ### Surveillance
       1) !screenshot (Takes a screenshot on client side and sends to C2)
       2) !webcam (Grabs a picture using clients webcam and sends it)
 
+### Elevation / Persistence
+      1) !elevate (Tryies to elevate from User to Admin)
+      2) !install (Will try to gain persistence on the client system)
+      3) !uninstall (Will remove persistence from client system)
+
 ### Files
       1) !upload (Upload a file from C2 to client.)
       2) !download <FileName> (Download file from client to C2)
+      3) !cat <FileName> (Reads and outputs the content of a file)
 
 ### Information
       1) !info (Get system info such as GPU, CPU, RAM, HDD/SSD and more.)
