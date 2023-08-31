@@ -10,7 +10,7 @@ Please be aware that this project is currently under development, and its stabil
 # VirusTotal Talk
 > ⚠️ **Important:** Please refrain from uploading any payloads to VirusTotal.com, as this could potentially interfere with the functionality of the tool over time. VirusTotal shares signatures with antivirus companies, which may impact the effectiveness of the tool.
 
-## Previous Upload
+### VirusTotal Upload
 I've already uploaded it once, so if you want to see it go [here](https://www.virustotal.com/gui/file/426ed7a22f44beac5e34ffc0c71f927749d53e3f8a970acbabbf763894edc1bf/detection).
 
 
