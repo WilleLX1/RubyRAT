@@ -6,7 +6,7 @@ RubyRAT is a remote access trojan developed in Python, designed to utilize a Dis
 
 ## Note
 Please be aware that this project is currently under development, and its stability may vary as it continues to evolve.
-
+⚠️ **Important:** Please refrain from uploading any payloads to VirusTotal.com, as this could potentially interfere with the functionality of the tool over time. VirusTotal shares signatures with antivirus companies, which may impact the effectiveness of the tool.
 
 # Setup Step-By-Step
 
