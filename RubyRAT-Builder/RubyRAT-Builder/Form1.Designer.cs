@@ -33,11 +33,13 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtInputToken = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.cbDM = new System.Windows.Forms.CheckBox();
+            this.cbSE = new System.Windows.Forms.CheckBox();
             this.cbCTS = new System.Windows.Forms.CheckBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtOutput = new System.Windows.Forms.TextBox();
-            this.cbSE = new System.Windows.Forms.CheckBox();
-            this.cbDM = new System.Windows.Forms.CheckBox();
+            this.btnInstallDef = new System.Windows.Forms.Button();
+            this.btnSeeDef = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -94,6 +96,26 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "INSTALL  / PERSISTENCE";
             // 
+            // cbDM
+            // 
+            this.cbDM.AutoSize = true;
+            this.cbDM.Location = new System.Drawing.Point(6, 73);
+            this.cbDM.Name = "cbDM";
+            this.cbDM.Size = new System.Drawing.Size(108, 20);
+            this.cbDM.TabIndex = 7;
+            this.cbDM.Text = "Debug Mode";
+            this.cbDM.UseVisualStyleBackColor = true;
+            // 
+            // cbSE
+            // 
+            this.cbSE.AutoSize = true;
+            this.cbSE.Location = new System.Drawing.Point(6, 47);
+            this.cbSE.Name = "cbSE";
+            this.cbSE.Size = new System.Drawing.Size(113, 20);
+            this.cbSE.TabIndex = 6;
+            this.cbSE.Text = "Start Elevated";
+            this.cbSE.UseVisualStyleBackColor = true;
+            // 
             // cbCTS
             // 
             this.cbCTS.AutoSize = true;
@@ -127,31 +149,33 @@
             this.txtOutput.Size = new System.Drawing.Size(228, 403);
             this.txtOutput.TabIndex = 0;
             // 
-            // cbSE
+            // btnInstallDef
             // 
-            this.cbSE.AutoSize = true;
-            this.cbSE.Location = new System.Drawing.Point(6, 47);
-            this.cbSE.Name = "cbSE";
-            this.cbSE.Size = new System.Drawing.Size(113, 20);
-            this.cbSE.TabIndex = 6;
-            this.cbSE.Text = "Start Elevated";
-            this.cbSE.UseVisualStyleBackColor = true;
+            this.btnInstallDef.Location = new System.Drawing.Point(12, 244);
+            this.btnInstallDef.Name = "btnInstallDef";
+            this.btnInstallDef.Size = new System.Drawing.Size(75, 50);
+            this.btnInstallDef.TabIndex = 6;
+            this.btnInstallDef.Text = "INSTALL DEFS";
+            this.btnInstallDef.UseVisualStyleBackColor = true;
+            this.btnInstallDef.Click += new System.EventHandler(this.btnInstallDef_Click);
             // 
-            // cbDM
+            // btnSeeDef
             // 
-            this.cbDM.AutoSize = true;
-            this.cbDM.Location = new System.Drawing.Point(6, 73);
-            this.cbDM.Name = "cbDM";
-            this.cbDM.Size = new System.Drawing.Size(108, 20);
-            this.cbDM.TabIndex = 7;
-            this.cbDM.Text = "Debug Mode";
-            this.cbDM.UseVisualStyleBackColor = true;
+            this.btnSeeDef.Location = new System.Drawing.Point(12, 188);
+            this.btnSeeDef.Name = "btnSeeDef";
+            this.btnSeeDef.Size = new System.Drawing.Size(75, 50);
+            this.btnSeeDef.TabIndex = 7;
+            this.btnSeeDef.Text = "SEE DEFS";
+            this.btnSeeDef.UseVisualStyleBackColor = true;
+            this.btnSeeDef.Click += new System.EventHandler(this.btnSeeDef_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(883, 450);
+            this.Controls.Add(this.btnSeeDef);
+            this.Controls.Add(this.btnInstallDef);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -180,6 +204,8 @@
         private System.Windows.Forms.TextBox txtOutput;
         private System.Windows.Forms.CheckBox cbSE;
         private System.Windows.Forms.CheckBox cbDM;
+        private System.Windows.Forms.Button btnInstallDef;
+        private System.Windows.Forms.Button btnSeeDef;
     }
 }
 
