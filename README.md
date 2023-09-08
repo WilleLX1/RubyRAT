@@ -65,12 +65,13 @@ The tool has already been uploaded once. You can review the upload [here](https:
 
 1. Gather Browser History
 2. Gather Browser Passwords
-3. Gather System Information
-4. Gather Browser Cookies
-5. Gather Discord Token/s
-6. Data Encryption/Decryption
-7. Cross-Platform Compatibility
-8. Error Handling and Validation
+3. Gather Browser Cookies
+4. Gather Discord Token/s
+5. Data Encryption/Decryption
+6. Cross-Platform Compatibility
+7. Error Handling and Validation
+8. Real-time Microphone Listening
+9. 
 
 # Warning
 
