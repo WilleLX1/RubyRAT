@@ -47,7 +47,9 @@ The tool has already been uploaded once. You can review the upload [here](https:
 ### Surveillance
 1. `!screenshot`: Takes a screenshot on the client side and sends it to C2.
 2. `!webcam`: Captures a picture using the client's webcam and sends it.
-
+3. `!dump`: Sends a file containing the keyloggers log to C2.
+4. `!log`: Toggle keylogging.
+        
 ### Elevation / Persistence
 1. `!elevate`: Attempts to elevate from user to admin.
 2. `!install`: Tries to gain persistence on the client system.
@@ -57,21 +59,24 @@ The tool has already been uploaded once. You can review the upload [here](https:
 1. `!upload`: Uploads a file from C2 to the client.
 2. `!download <FileName>`: Downloads a file from the client to C2.
 3. `!cat <FileName>`: Reads and outputs the content of a file.
+4. `!encrypt <filename> <password>`: Encrypt a file with a special password.
+5. `!decrypt <filename> <password>`: Decrypt a file with the special password.
 
 ### Information
 1. `!info`: Retrieves system info including GPU, CPU, RAM, HDD/SSD, and more.
+2. `!history`: Gather and download all web history from client.
+
+### Fun
+1. `!volume <volume_amount>`: Changes volume to the given procentage.
 
 # Future Features
 
-1. Gather Browser History
-2. Gather Browser Passwords
-3. Gather Browser Cookies
-4. Gather Discord Token/s
-5. Data Encryption/Decryption
-6. Cross-Platform Compatibility
-7. Error Handling and Validation
-8. Real-time Microphone Listening
-9. 
+1. Gather Browser Passwords
+2. Gather Browser Cookies
+3. Gather Discord Token/s
+4. Cross-Platform Compatibility
+5. Error Handling and Validation
+6. Real-time Microphone Listening 
 
 # Warning
 
