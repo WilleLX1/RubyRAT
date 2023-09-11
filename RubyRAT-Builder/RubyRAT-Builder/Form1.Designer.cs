@@ -40,6 +40,7 @@
             this.txtOutput = new System.Windows.Forms.TextBox();
             this.btnInstallDef = new System.Windows.Forms.Button();
             this.btnSeeDef = new System.Windows.Forms.Button();
+            this.comboBoxVersions = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -169,11 +170,21 @@
             this.btnSeeDef.UseVisualStyleBackColor = true;
             this.btnSeeDef.Click += new System.EventHandler(this.btnSeeDef_Click);
             // 
+            // comboBoxVersions
+            // 
+            this.comboBoxVersions.FormattingEnabled = true;
+            this.comboBoxVersions.Location = new System.Drawing.Point(510, 270);
+            this.comboBoxVersions.Name = "comboBoxVersions";
+            this.comboBoxVersions.Size = new System.Drawing.Size(121, 24);
+            this.comboBoxVersions.TabIndex = 8;
+            this.comboBoxVersions.SelectedIndexChanged += new System.EventHandler(this.comboBoxVersions_SelectedIndexChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(883, 450);
+            this.Controls.Add(this.comboBoxVersions);
             this.Controls.Add(this.btnSeeDef);
             this.Controls.Add(this.btnInstallDef);
             this.Controls.Add(this.groupBox3);
@@ -206,6 +217,7 @@
         private System.Windows.Forms.CheckBox cbDM;
         private System.Windows.Forms.Button btnInstallDef;
         private System.Windows.Forms.Button btnSeeDef;
+        private System.Windows.Forms.ComboBox comboBoxVersions;
     }
 }
 
