@@ -16,7 +16,7 @@ This project is under active development, and its stability may vary as it conti
 
 ### VirusTotal Upload
 
-The tool has already been uploaded once. You can review the upload [here](https://www.virustotal.com/gui/file/426ed7a22f44beac5e34ffc0c71f927749d53e3f8a970acbabbf763894edc1bf/detection).
+The tool has already been uploaded once. You can review the upload without any encryption added [here](https://www.virustotal.com/gui/file/426ed7a22f44beac5e34ffc0c71f927749d53e3f8a970acbabbf763894edc1bf/detection).
 
 # Setup Step-By-Step
 
