@@ -41,6 +41,7 @@
             this.btnInstallDef = new System.Windows.Forms.Button();
             this.btnSeeDef = new System.Windows.Forms.Button();
             this.comboBoxVersions = new System.Windows.Forms.ComboBox();
+            this.cbEP = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -87,6 +88,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.cbEP);
             this.groupBox2.Controls.Add(this.cbDM);
             this.groupBox2.Controls.Add(this.cbSE);
             this.groupBox2.Controls.Add(this.cbCTS);
@@ -102,7 +104,7 @@
             this.cbDM.AutoSize = true;
             this.cbDM.Location = new System.Drawing.Point(6, 73);
             this.cbDM.Name = "cbDM";
-            this.cbDM.Size = new System.Drawing.Size(108, 20);
+            this.cbDM.Size = new System.Drawing.Size(105, 20);
             this.cbDM.TabIndex = 7;
             this.cbDM.Text = "Debug Mode";
             this.cbDM.UseVisualStyleBackColor = true;
@@ -112,7 +114,7 @@
             this.cbSE.AutoSize = true;
             this.cbSE.Location = new System.Drawing.Point(6, 47);
             this.cbSE.Name = "cbSE";
-            this.cbSE.Size = new System.Drawing.Size(113, 20);
+            this.cbSE.Size = new System.Drawing.Size(110, 20);
             this.cbSE.TabIndex = 6;
             this.cbSE.Text = "Start Elevated";
             this.cbSE.UseVisualStyleBackColor = true;
@@ -122,7 +124,7 @@
             this.cbCTS.AutoSize = true;
             this.cbCTS.Location = new System.Drawing.Point(6, 21);
             this.cbCTS.Name = "cbCTS";
-            this.cbCTS.Size = new System.Drawing.Size(126, 20);
+            this.cbCTS.Size = new System.Drawing.Size(123, 20);
             this.cbCTS.TabIndex = 0;
             this.cbCTS.Text = "Copy To Startup";
             this.cbCTS.UseVisualStyleBackColor = true;
@@ -179,6 +181,17 @@
             this.comboBoxVersions.TabIndex = 8;
             this.comboBoxVersions.SelectedIndexChanged += new System.EventHandler(this.comboBoxVersions_SelectedIndexChanged);
             // 
+            // cbEP
+            // 
+            this.cbEP.AutoSize = true;
+            this.cbEP.Location = new System.Drawing.Point(6, 99);
+            this.cbEP.Name = "cbEP";
+            this.cbEP.Size = new System.Drawing.Size(125, 20);
+            this.cbEP.TabIndex = 1;
+            this.cbEP.Text = "Encrypt Payload";
+            this.cbEP.UseVisualStyleBackColor = true;
+            this.cbEP.CheckedChanged += new System.EventHandler(this.cbEP_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -218,6 +231,7 @@
         private System.Windows.Forms.Button btnInstallDef;
         private System.Windows.Forms.Button btnSeeDef;
         private System.Windows.Forms.ComboBox comboBoxVersions;
+        private System.Windows.Forms.CheckBox cbEP;
     }
 }
 

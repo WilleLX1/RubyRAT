@@ -43,12 +43,15 @@ The tool has already been uploaded once. You can review the upload [here](https:
 ### Basics
 1. `!help`: Displays a help menu of all commands.
 2. `!kill`: Disconnects client from C2.
+3. `!restart`: Restarts client.
+4. `!version`: Prints out current version of RubyRAT.
 
 ### Surveillance
 1. `!screenshot`: Takes a screenshot on the client side and sends it to C2.
 2. `!webcam`: Captures a picture using the client's webcam and sends it.
-3. `!dump`: Sends a file containing the keyloggers log to C2.
-4. `!log`: Toggle keylogging.
+3. `!dumplog`: Sends a file containing the keyloggers log to C2.
+4. `!startlog`: Start the keylogging.
+5. `!stoplog`: Stop the keylogging.
         
 ### Elevation / Persistence
 1. `!elevate`: Attempts to elevate from user to admin.
@@ -68,6 +71,7 @@ The tool has already been uploaded once. You can review the upload [here](https:
 
 ### Fun
 1. `!volume <volume_amount>`: Changes volume to the given procentage.
+1. `!sendkey <Hello-World!>`: Sends keystrokes to client ("-" is space).
 
 # Future Features
 
