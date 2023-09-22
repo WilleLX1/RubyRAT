@@ -16,7 +16,7 @@ This project is under active development, and its stability may vary as it conti
 
 ### VirusTotal Upload
 
-The tool has already been uploaded once. You can review the upload [here](https://www.virustotal.com/gui/file/426ed7a22f44beac5e34ffc0c71f927749d53e3f8a970acbabbf763894edc1bf/detection).
+The tool has already been uploaded once. You can review the upload without any encryption added [here](https://www.virustotal.com/gui/file/426ed7a22f44beac5e34ffc0c71f927749d53e3f8a970acbabbf763894edc1bf/detection).
 
 # Setup Step-By-Step
 
@@ -80,7 +80,8 @@ The tool has already been uploaded once. You can review the upload [here](https:
 3. Gather Discord Token/s
 4. Cross-Platform Compatibility
 5. Error Handling and Validation
-6. Real-time Microphone Listening 
+6. Real-time Microphone Listening
+7. !Version (Get version of rubyRAT used)
 
 # Warning
 
