@@ -81,7 +81,6 @@ The tool has already been uploaded once. You can review the upload without any e
 4. Cross-Platform Compatibility
 5. Error Handling and Validation
 6. Real-time Microphone Listening
-7. !Version (Get version of rubyRAT used)
 
 # Warning
 
