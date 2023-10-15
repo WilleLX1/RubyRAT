@@ -52,6 +52,7 @@ The tool has already been uploaded once. You can review the upload without any e
 3. `!dumplog`: Sends a file containing the keyloggers log to C2.
 4. `!startlog`: Start the keylogging.
 5. `!stoplog`: Stop the keylogging.
+6. `!geolocate`: Calculates position using google maps API.
         
 ### Elevation / Persistence
 1. `!elevate`: Attempts to elevate from user to admin.
@@ -68,10 +69,12 @@ The tool has already been uploaded once. You can review the upload without any e
 ### Information
 1. `!info`: Retrieves system info including GPU, CPU, RAM, HDD/SSD, and more.
 2. `!history`: Gather and download all web history from client.
+3. `!network`: Retrieve all saved network names their passwords
 
 ### Fun
 1. `!volume <volume_amount>`: Changes volume to the given procentage.
-1. `!sendkey <Hello-World!>`: Sends keystrokes to client ("-" is space).
+2. `!sendkey <Hello-World!>`: Sends keystrokes to client ("-" is space).
+3. `!messagebox <error\warning\info> <title> <content>`: Sends a custom made messagebox to client.
 
 # Future Features
 
