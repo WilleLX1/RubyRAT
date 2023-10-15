@@ -45,6 +45,8 @@ The tool has already been uploaded once. You can review the upload without any e
 2. `!kill`: Disconnects client from C2.
 3. `!restart`: Restarts client.
 4. `!version`: Prints out current version of RubyRAT.
+5. `!cmd <command>`: Execute a shell command.
+6. `!interactive_cmd`: Starts a CMD terminal in discord. (Avoid using commands that output much information, like "dir").
 
 ### Surveillance
 1. `!screenshot`: Takes a screenshot on the client side and sends it to C2.
@@ -58,6 +60,8 @@ The tool has already been uploaded once. You can review the upload without any e
 1. `!elevate`: Attempts to elevate from user to admin.
 2. `!install`: Tries to gain persistence on the client system.
 3. `!uninstall`: Removes persistence from the client system.
+4. `!better_install`: Gets presistence on system with 3 diffrent methods.
+5. `!better_uninstall`: Removes 3 diffrent methods of presistence from client system.
 
 ### Files
 1. `!upload`: Uploads a file from C2 to the client.
@@ -70,6 +74,7 @@ The tool has already been uploaded once. You can review the upload without any e
 1. `!info`: Retrieves system info including GPU, CPU, RAM, HDD/SSD, and more.
 2. `!history`: Gather and download all web history from client.
 3. `!network`: Retrieve all saved network names their passwords
+4. `!passwords_chrome`: If client has chrome, it will retrieve all saved usernames, passwords and URL's to the website.
 
 ### Fun
 1. `!volume <volume_amount>`: Changes volume to the given procentage.
@@ -78,14 +83,16 @@ The tool has already been uploaded once. You can review the upload without any e
 
 # Future Features
 
-1. Gather Browser Passwords
-2. Gather Browser Cookies
-3. Gather Discord Token/s
-4. Cross-Platform Compatibility
-5. Error Handling and Validation
-6. Real-time Microphone Listening
+1. Gather Browser Cookies
+2. Gather Discord Token/s
+3. Cross-Platform Compatibility
+4. Error Handling and Validation
+5. Real-time Microphone Listening
+6. Fake Windows Logon
+7. Reverse Proxy
+8. Save client information automaticly into seperate channel
+9. USB Spread
 
 # Warning
 
 Use this tool only for educational purposes. I will not be responsible for any malicious use.
-
