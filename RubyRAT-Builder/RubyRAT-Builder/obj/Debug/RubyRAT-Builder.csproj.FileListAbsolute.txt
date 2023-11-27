@@ -29,3 +29,13 @@ D:\Github\RubyRAT-main\RubyRAT-Builder\RubyRAT-Builder\obj\Debug\RubyRAT-Builder
 D:\Github\RubyRAT-main\RubyRAT-Builder\RubyRAT-Builder\obj\Debug\RubyRAT-Builder.csproj.CoreCompileInputs.cache
 D:\Github\RubyRAT-main\RubyRAT-Builder\RubyRAT-Builder\obj\Debug\RubyRAT-Builder.exe
 D:\Github\RubyRAT-main\RubyRAT-Builder\RubyRAT-Builder\obj\Debug\RubyRAT-Builder.pdb
+D:\Github\RubyRAT\RubyRAT-Builder\RubyRAT-Builder\bin\Debug\RubyRAT-Builder.exe.config
+D:\Github\RubyRAT\RubyRAT-Builder\RubyRAT-Builder\bin\Debug\RubyRAT-Builder.exe
+D:\Github\RubyRAT\RubyRAT-Builder\RubyRAT-Builder\bin\Debug\RubyRAT-Builder.pdb
+D:\Github\RubyRAT\RubyRAT-Builder\RubyRAT-Builder\obj\Debug\RubyRAT-Builder.csproj.AssemblyReference.cache
+D:\Github\RubyRAT\RubyRAT-Builder\RubyRAT-Builder\obj\Debug\RubyRAT_Builder.Form1.resources
+D:\Github\RubyRAT\RubyRAT-Builder\RubyRAT-Builder\obj\Debug\RubyRAT_Builder.Properties.Resources.resources
+D:\Github\RubyRAT\RubyRAT-Builder\RubyRAT-Builder\obj\Debug\RubyRAT-Builder.csproj.GenerateResource.cache
+D:\Github\RubyRAT\RubyRAT-Builder\RubyRAT-Builder\obj\Debug\RubyRAT-Builder.csproj.CoreCompileInputs.cache
+D:\Github\RubyRAT\RubyRAT-Builder\RubyRAT-Builder\obj\Debug\RubyRAT-Builder.exe
+D:\Github\RubyRAT\RubyRAT-Builder\RubyRAT-Builder\obj\Debug\RubyRAT-Builder.pdb
