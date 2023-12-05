@@ -12,7 +12,6 @@ C:\Github-Stuff\Python\RubyRAT\RubyRAT\RubyRAT-Builder\RubyRAT-Builder\bin\Debug
 C:\Github-Stuff\Python\RubyRAT\RubyRAT\RubyRAT-Builder\RubyRAT-Builder\bin\Debug\RubyRAT-Builder.exe
 C:\Github-Stuff\Python\RubyRAT\RubyRAT\RubyRAT-Builder\RubyRAT-Builder\bin\Debug\RubyRAT-Builder.pdb
 C:\Github-Stuff\Python\RubyRAT\RubyRAT\RubyRAT-Builder\RubyRAT-Builder\obj\Debug\RubyRAT-Builder.csproj.AssemblyReference.cache
-C:\Github-Stuff\Python\RubyRAT\RubyRAT\RubyRAT-Builder\RubyRAT-Builder\obj\Debug\RubyRAT-Builder.csproj.SuggestedBindingRedirects.cache
 C:\Github-Stuff\Python\RubyRAT\RubyRAT\RubyRAT-Builder\RubyRAT-Builder\obj\Debug\RubyRAT_Builder.Form1.resources
 C:\Github-Stuff\Python\RubyRAT\RubyRAT\RubyRAT-Builder\RubyRAT-Builder\obj\Debug\RubyRAT_Builder.Properties.Resources.resources
 C:\Github-Stuff\Python\RubyRAT\RubyRAT\RubyRAT-Builder\RubyRAT-Builder\obj\Debug\RubyRAT-Builder.csproj.GenerateResource.cache
