@@ -41,59 +41,59 @@ The tool has already been uploaded once. You can review the upload without any e
 # Features
 
 ### GENERAL
-`!help`: Displays a help menu of all commands.
-`!cmd <command>`: Execute a shell command.
-`!restart`: Restarts client.
-`!version`: Prints out current version of RubyRAT.
-`!kill`: Disconnects Client from C2.
+1. `!help`: Displays a help menu of all commands.
+2. `!cmd <command>`: Execute a shell command.
+3. `!restart`: Restarts client.
+4. `!version`: Prints out current version of RubyRAT.
+5. `!kill`: Disconnects Client from C2.
 
 ### FILE MANAGEMENT
-`!upload`: Upload a file from C2 to client.
-`!download`: Download file from client to C2.
-`!cat`: Reads and outputs the content of a file.
+1. `!upload`: Upload a file from C2 to client.
+2. `!download`: Download file from client to C2.
+3. `!cat`: Reads and outputs the content of a file.
 
 ### SUVAILLANCE
-`!screenshot`: Takes a screenshot on client side and sends to C2.
-`!webcam`: Grabs a picture using clients webcam and sends it.
-`!info`: Get system info such as GPU, CPU, RAM, HDD/SSD and more.
-`!geolocate`: Calculates position using google maps API.
+1. `!screenshot`: Takes a screenshot on client side and sends to C2.
+2. `!webcam`: Grabs a picture using clients webcam and sends it.
+3. `!info`: Get system info such as GPU, CPU, RAM, HDD/SSD and more.
+4. `!geolocate`: Calculates position using google maps API.
 
 ### PERSISTENCE
-`!elevate`: Tryies to elevate from User to Admin.
-`!install`: Will try to gain persistence on the client system.
-`!uninstall`: Will remove persistence from client system.
-`!better_install`: Gets presistence on system with 3 diffrent methods.
-`!better_uninstall`: Removes 3 diffrent methods of persistence from client system.
-`!better_check`: Checks if 3 diffrent methods of persistence is active on client system.
-`!cool_install`: Installs persistence with a interesting exploit found in some computers.
-`!cool_uninstall`: Uninstalls the exploit persistence found in some computers.
+1. `!elevate`: Tryies to elevate from User to Admin.
+2. `!install`: Will try to gain persistence on the client system.
+3. `!uninstall`: Will remove persistence from client system.
+4. `!better_install`: Gets presistence on system with 3 diffrent methods.
+5. `!better_uninstall`: Removes 3 diffrent methods of persistence from client system.
+6. `!better_check`: Checks if 3 diffrent methods of persistence is active on client system.
+7. `!cool_install`: Installs persistence with a interesting exploit found in some computers.
+8. `!cool_uninstall`: Uninstalls the exploit persistence found in some computers.
 
 ### RECOVERY
-`!history`: Gather and download all web history from client.
-`!passwords_chrome`: If client has chrome, it will retrieve all saved usernames, passwords and URL's to the website.
-`!network`: Retrieve all saved network SSIDs their passwords.
+1. `!history`: Gather and download all web history from client.
+2. `!passwords_chrome`: If client has chrome, it will retrieve all saved usernames, passwords and URL's to the website.
+3. `!network`: Retrieve all saved network SSIDs their passwords.
 
 ### KEYLOGGER
-`!dumplog`: Sends a file containing the keyloggers log to C2.
-`!startlog`: Start the keylogging.
-`!stoplog`: Stop the keylogging.
+1. `!dumplog`: Sends a file containing the keyloggers log to C2.
+2. `!startlog`: Start the keylogging.
+3. `!stoplog`: Stop the keylogging.
 
 ### ENCRYPTION
-`!encrypt <filename> <password>`: Encrypt a file with a special password.
-`!decrypt <filename> <password>`: Decrypt a file with the special password.
+1. `!encrypt <filename> <password>`: Encrypt a file with a special password.
+2. `!decrypt <filename> <password>`: Decrypt a file with the special password.
 
 ### DNS Spoofing
-`!block_website <domain>`: Blocks a website on the clients computer.
-`!unblock_website <domain>`: Unblocks a website on the clients computer.
-`!spoof_dns <domain> <ip>`: Spoofs a domain to a specified IP.
+1. `!block_website <domain>`: Blocks a website on the clients computer.
+2. `!unblock_website <domain>`: Unblocks a website on the clients computer.
+3. `!spoof_dns <domain> <ip>`: Spoofs a domain to a specified IP.
 
 ### MISC
-`!volume <volume_amount>`: Changes volume to the given procentage
-`!sendkey <Hello-World!>`: Sends keystrokes to client, "-" is space
-`!messagebox <error\warning\info> <title> <content>`: Sends a custom made messagebox to client.
-`!securefile <filepath>`: Nulls out file to make it near-impossible to recover.
-`!BSOD <svchost\explorer>`: Diffrent ways to make clients system unstable.
-`!interactive_cmd`: Starts a CMD terminal in discord. (Avoid using commands that output much information, like "dir")
+1. `!volume <volume_amount>`: Changes volume to the given procentage
+2. `!sendkey <Hello-World!>`: Sends keystrokes to client, "-" is space
+3. `!messagebox <error\warning\info> <title> <content>`: Sends a custom made messagebox to client.
+4. `!securefile <filepath>`: Nulls out file to make it near-impossible to recover.
+5. `!BSOD <svchost\explorer>`: Diffrent ways to make clients system unstable.
+6. `!interactive_cmd`: Starts a CMD terminal in discord. (Avoid using commands that output much information, like "dir")
 
 # Future Features
 
