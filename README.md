@@ -38,6 +38,13 @@ The tool has already been uploaded once. You can review the upload without any e
 2. Paste the invite link in a browser and follow prompts to add the bot.
 3. Configure bot permissions in the "RubyRAT" category.
 
+### 4. Create Payload for Clients
+
+1. Download the latest RubyRAT release [here](https://github.com/WilleLX1/RubyRAT/releases).
+2. Unzip and open the builder (RubyRAT-Builder.exe found inside of zipped release)
+3. Follow instructions and press build button when done.
+4. Send payload to client and wait for a connection.
+
 # Features
 
 ### GENERAL
